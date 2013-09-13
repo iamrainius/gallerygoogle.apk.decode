@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="notification_progress_bar" parent="@android:style/Widget.DeviceDefault.Light.ProgressBar.Horizontal" />
+    <style name="Theme.CameraBase" parent="@android:style/Theme.Holo.NoActionBar.Fullscreen" />
+    <style name="Widget.Button.Borderless" parent="@android:style/Widget.Holo.Button.Borderless" />
+</resources>

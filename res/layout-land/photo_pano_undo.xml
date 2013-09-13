@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<com.android.camera.ui.RotateImageView android:id="@id/undo_button" android:layout_alignParentTop="true" android:layout_alignParentRight="true" android:layout_marginBottom="2.0dip" android:src="@drawable/filtershow_button_undo" android:scaleType="center" android:visibility="gone" style="@style/SwitcherButton"
+  xmlns:android="http://schemas.android.com/apk/res/android"
+
+
+
+
+
+
+ />

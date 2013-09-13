@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<LinearLayout android:id="@id/content" android:orientation="vertical" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_alignBottom="@id/camera_switcher" android:layout_alignLeft="@id/camera_switcher" android:layout_marginLeft="8.0dip" android:layout_marginBottom="8.0dip" android:paddingLeft="16.0dip" android:paddingRight="16.0dip" android:paddingTop="8.0dip" android:paddingBottom="8.0dip" android:background="#80000000"
+  xmlns:android="http://schemas.android.com/apk/res/android"
+
+
+
+
+
+
+
+
+
+
+
+ />

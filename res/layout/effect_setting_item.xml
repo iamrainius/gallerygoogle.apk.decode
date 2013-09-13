@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<LinearLayout style="@style/EffectSettingItem"
+  xmlns:android="http://schemas.android.com/apk/res/android"
+
+
+>
+    <ImageView android:id="@id/image" android:layout_height="@dimen/effect_setting_item_icon_width" android:layout_width="@dimen/effect_setting_item_icon_width" android:layout_gravity="center_horizontal" android:scaleType="fitCenter" android:adjustViewBounds="true"
+
+
+
+
+ />
+    <TextView android:id="@id/text" style="@style/EffectSettingItemTitle"
+ />
+</LinearLayout>

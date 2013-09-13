@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:layout_width="fill_parent" android:layout_height="fill_parent" android:orientation="horizontal"
+  xmlns:android="http://schemas.android.com/apk/res/android"
+
+
+>
+    <ImageView android:layout_width="0.0dip" android:layout_height="fill_parent" android:id="@id/thumbnail1" android:layout_weight="1.0" android:tag="thumbnail"
+
+
+
+
+ />
+
+    <ImageView android:layout_width="0.0dip" android:layout_height="fill_parent" android:id="@id/thumbnail2" android:layout_weight="1.0" android:tag="thumbnail"
+
+
+
+
+ />
+
+    <ImageView android:layout_width="0.0dip" android:layout_height="fill_parent" android:id="@id/thumbnail3" android:layout_weight="1.0" android:tag="thumbnail"
+
+
+
+
+ />
+
+</LinearLayout>

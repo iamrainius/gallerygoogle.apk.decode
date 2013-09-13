@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:id="@id/photopage_progress_bar" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_alignParentBottom="true" android:layout_alignParentLeft="true" android:padding="25.0dip" android:visibility="invisible"
+  xmlns:android="http://schemas.android.com/apk/res/android"
+
+
+
+
+
+>
+    <View android:id="@id/photopage_progress_background" android:layout_width="fill_parent" android:layout_height="8.0dip" android:layout_alignParentBottom="true" android:visibility="visible" android:background="#ff000000"
+
+
+
+
+
+ />
+    <View android:id="@id/photopage_progress_foreground" android:layout_width="10.0dip" android:layout_height="8.0dip" android:layout_alignParentBottom="true" android:layout_alignParentLeft="true" android:visibility="visible" android:background="#ff33b5e5"
+
+
+
+
+
+
+ />
+    <TextView android:id="@id/photopage_progress_bar_text" android:layout_width="wrap_content" android:layout_height="wrap_content" android:visibility="visible" android:text="@string/pano_progress_text" android:textColor="#ffffffff" android:textSize="14.0dip" android:shadowColor="#ff000000" android:shadowDx="0.0" android:shadowDy="0.0" android:shadowRadius="2.0" android:layout_alignParentRight="true" android:layout_above="@id/photopage_progress_background" android:paddingBottom="8.0dip"
+
+
+
+
+
+
+
+
+
+
+
+
+
+ />
+</RelativeLayout>

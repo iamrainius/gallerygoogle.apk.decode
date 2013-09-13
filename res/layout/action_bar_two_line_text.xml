@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<TwoLineListItem android:layout_height="fill_parent" android:orientation="vertical" android:gravity="center_vertical" android:background="?android:activatedBackgroundIndicator" android:duplicateParentState="false" android:layout_alignParentLeft="true" android:layout_width="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android"
+
+
+
+
+
+>
+    <TextView android:layout_height="wrap_content" android:layout_width="wrap_content" android:id="@android:id/text1" android:singleLine="true" android:ellipsize="end" android:includeFontPadding="false" style="@style/ActionBarTwoLinePrimary"
+
+
+
+
+
+
+ />
+    <TextView android:layout_height="wrap_content" android:layout_width="wrap_content" android:id="@android:id/text2" android:singleLine="true" android:ellipsize="end" android:includeFontPadding="false" android:layout_marginRight="4.0dip" android:layout_below="@android:id/text1" style="@style/ActionBarTwoLineSecondary"
+
+
+
+
+
+
+
+
+ />
+</TwoLineListItem>

@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<com.android.camera.ui.TimeIntervalPopup style="@style/SettingPopupWindow"
+  xmlns:android="http://schemas.android.com/apk/res/android"
+>
+    <LinearLayout android:orientation="vertical" android:background="@color/popup_background" android:layout_height="wrap_content" android:layout_width="@dimen/big_setting_popup_window_width"
+
+
+
+>
+        <LinearLayout android:orientation="horizontal" android:layout_height="wrap_content" android:layout_width="fill_parent"
+
+>
+            <FrameLayout android:layout_height="wrap_content" android:layout_width="wrap_content" android:minHeight="@dimen/popup_title_frame_min_height"
+
+
+>
+                <TextView android:id="@id/title" style="@style/PopupTitleText"
+ />
+            </FrameLayout>
+
+            <LinearLayout android:orientation="horizontal" android:layout_height="fill_parent" android:layout_width="fill_parent"
+
+
+>
+                <com.android.camera.ui.Switch android:layout_height="wrap_content" android:layout_width="fill_parent" android:id="@id/time_lapse_switch" android:layout_gravity="right|center"
+
+
+
+ />
+            </LinearLayout>
+        </LinearLayout>
+
+        <View style="@style/PopupTitleSeparator" />
+
+        <LinearLayout android:orientation="vertical" android:layout_height="wrap_content" android:layout_width="fill_parent"
+
+
+
+>
+            <TextView android:layout_height="wrap_content" android:layout_width="wrap_content" android:id="@id/set_time_interval_help_text" android:paddingTop="16.0dip" android:paddingLeft="16.0dip" android:paddingRight="16.0dip" android:paddingBottom="16.0dip" android:textAppearance="?android:textAppearanceMedium" android:text="@string/set_time_interval_help"
+
+
+
+
+
+
+
+
+ />
+        </LinearLayout>
+
+        <LinearLayout android:layout_height="wrap_content" android:layout_width="fill_parent" android:layout_gravity="center_horizontal"
+
+>
+            <include layout="@layout/time_interval_picker" />
+        </LinearLayout>
+
+        <LinearLayout android:orientation="vertical" android:layout_height="wrap_content" android:layout_width="fill_parent" android:divider="?android:dividerHorizontal" android:showDividers="beginning" android:dividerPadding="0.0dip"
+
+
+
+
+
+>
+            <Button android:layout_height="wrap_content" android:layout_width="fill_parent" android:id="@id/time_lapse_interval_set_button" android:layout_gravity="center_horizontal" android:textAppearance="?android:textAppearanceMedium" android:text="@string/time_lapse_interval_set" style="?android:attr/buttonBarButtonStyle"
+
+
+
+
+
+ />
+        </LinearLayout>
+    </LinearLayout>
+
+</com.android.camera.ui.TimeIntervalPopup>

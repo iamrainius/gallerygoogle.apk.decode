@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<PreferenceScreen
+  xmlns:android="http://schemas.android.com/apk/res/android"><PreferenceCategory android:key="prefs_account_settings" android:title="@string/prefs_accounts"
+
+ />
+    <PreferenceCategory android:title="@string/prefs_data_usage"
+>
+        <CheckBoxPreference android:key="prefs_sync_on_wifi_only" android:title="@string/sync_on_wifi_only_title" android:summary="@string/sync_on_wifi_only_description"
+
+
+ />
+    </PreferenceCategory>
+    <PreferenceCategory android:title="@string/prefs_other_settings"
+>
+        <Preference android:key="prefs_open_source_licenses" android:title="@string/open_source_licenses"
+
+ />
+    </PreferenceCategory>
+</PreferenceScreen>

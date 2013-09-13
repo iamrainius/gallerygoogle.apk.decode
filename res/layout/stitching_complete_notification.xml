@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android"
+
+>
+    <ImageView android:layout_width="35.0dip" android:layout_height="35.0dip" android:id="@id/notificationLayout_imageView" android:layout_alignParentLeft="true" android:layout_marginRight="10.0dip"
+
+
+
+
+ />
+
+    <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:id="@id/notificationLayout_title" android:singleLine="true" android:ellipsize="end" android:layout_toRightOf="@id/notificationLayout_imageView" style="@style/notification_title"
+
+
+
+
+
+
+ />
+
+    <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:id="@id/notificationLayout_text" android:singleLine="true" android:ellipsize="end" android:layout_toRightOf="@id/notificationLayout_imageView" android:layout_below="@id/notificationLayout_title" style="@style/notification_text"
+
+
+
+
+
+
+
+ />
+
+</RelativeLayout>

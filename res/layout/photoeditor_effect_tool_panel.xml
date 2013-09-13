@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<LinearLayout android:layout_width="fill_parent" android:layout_height="wrap_content" android:paddingTop="@dimen/effect_tool_panel_padding_top" android:paddingBottom="@dimen/effect_tool_panel_padding_bottom" android:background="@color/translucent_black" android:gravity="center_horizontal" android:orientation="vertical"
+  xmlns:android="http://schemas.android.com/apk/res/android"
+
+
+
+
+
+
+
+>
+    <TextView android:id="@id/effect_label" style="@style/EffectLabelInToolPanel"
+
+ />
+</LinearLayout>

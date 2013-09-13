@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<LinearLayout android:orientation="vertical" android:gravity="left" android:layout_width="fill_parent" android:layout_height="wrap_content" android:paddingRight="?android:scrollbarSize" android:paddingLeft="25.0dip" android:paddingTop="6.0dip" android:paddingBottom="6.0dip" android:layout_weight="1.0"
+  xmlns:android="http://schemas.android.com/apk/res/android"
+
+
+
+
+
+
+
+
+>
+    <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:id="@id/title" android:focusable="false" android:clickable="false" android:singleLine="true" android:textAppearance="?android:textAppearanceMedium" android:ellipsize="marquee" android:fadingEdge="horizontal"
+
+
+
+
+
+
+
+ />
+
+    <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:id="@id/summary" android:focusable="false" android:clickable="false" android:textAppearance="?android:textAppearanceSmall" android:textColor="?android:textColorSecondary" android:maxLines="4"
+
+
+
+
+
+
+ />
+</LinearLayout>

@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<com.android.camera.ui.InLineSettingSwitch style="@style/SettingRow"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:id="@id/title" style="@style/SettingItemTitle"
+ />
+
+
+    <FrameLayout android:layout_weight="1.0" android:layout_width="0.0dip" android:layout_height="fill_parent"
+
+>
+        <com.android.camera.ui.Switch android:id="@id/setting_switch" android:layout_width="wrap_content" android:layout_height="fill_parent" android:layout_gravity="center"
+
+
+ />
+    </FrameLayout>
+</com.android.camera.ui.InLineSettingSwitch>

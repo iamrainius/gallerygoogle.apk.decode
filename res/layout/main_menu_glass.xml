@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+
+<LinearLayout android:layout_width="fill_parent" android:layout_height="fill_parent" android:orientation="vertical"
+  xmlns:android="http://schemas.android.com/apk/res/android"
+
+
+>
+    <LinearLayout android:layout_width="fill_parent" android:layout_height="fill_parent" android:orientation="horizontal" android:layout_weight="1.0"
+
+
+
+
+>
+        <ImageView android:layout_width="100.0dip" android:layout_height="100.0dip" android:id="@id/gallery" android:padding="15.0dip" android:src="@drawable/gallery_white"
+
+
+
+
+ />
+
+        <ImageView android:layout_width="100.0dip" android:layout_height="100.0dip" android:id="@id/take_pano" android:padding="15.0dip" android:src="@drawable/camera_white"
+
+
+
+
+ />
+
+        <ImageView android:layout_width="100.0dip" android:layout_height="100.0dip" android:id="@id/exit" android:padding="15.0dip" android:src="@drawable/exit_white"
+
+
+
+
+ />
+    </LinearLayout>
+
+    <TextView android:layout_width="fill_parent" android:layout_height="40.0dip" android:layout_weight="0.0" android:id="@id/selected_item_title" android:gravity="center_horizontal" android:textSize="30.0dip"
+
+
+
+
+
+ />
+
+</LinearLayout>

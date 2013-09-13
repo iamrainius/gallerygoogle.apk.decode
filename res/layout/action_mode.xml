@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<LinearLayout android:id="@id/navigation_bar" android:layout_width="fill_parent" android:layout_height="fill_parent" android:orientation="horizontal"
+  xmlns:android="http://schemas.android.com/apk/res/android"
+
+
+
+
+>
+    <FrameLayout android:layout_width="wrap_content" android:layout_height="fill_parent"
+      xmlns:android="http://schemas.android.com/apk/res/android"
+>
+        <ImageView android:layout_width="wrap_content" android:layout_height="fill_parent" android:layout_gravity="right" android:src="@drawable/dropdown_ic_arrow_normal_holo_dark"
+
+
+ />
+        <Button android:id="@id/selection_menu" android:layout_width="wrap_content" android:layout_height="fill_parent" android:divider="?android:listDividerAlertDialog" android:textAppearance="?android:textAppearanceLargePopupMenu" android:textColor="?android:actionMenuTextColor" android:singleLine="true" android:gravity="left|center" android:paddingRight="25.0dip" style="?android:attr/actionButtonStyle"
+
+
+
+
+
+
+
+
+ />
+    </FrameLayout>
+    <ImageView android:layout_width="wrap_content" android:layout_height="fill_parent" android:src="@drawable/cab_divider_vertical_dark" android:gravity="bottom" android:layout_marginLeft="16.0dip" android:layout_marginRight="8.0dip"
+
+
+
+
+ />
+</LinearLayout>

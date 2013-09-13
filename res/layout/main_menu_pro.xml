@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:layout_width="fill_parent" android:layout_height="fill_parent" android:orientation="vertical" android:theme="@android:style/Theme.NoTitleBar"
+  xmlns:android="http://schemas.android.com/apk/res/android"
+
+
+
+>
+    <Button android:layout_width="fill_parent" android:layout_height="0.0dip" android:id="@id/new_panorama" android:layout_weight="1.0" android:background="@drawable/button_selector_pro" android:text="@string/new_panorama" style="@style/main_menu_button_pro"
+
+
+
+
+
+
+ />
+
+    <Button android:layout_width="fill_parent" android:layout_height="0.0dip" android:id="@id/my_gallery" android:layout_weight="1.0" android:background="@drawable/button_selector_pro" android:text="@string/my_panoramas" style="@style/main_menu_button_pro"
+
+
+
+
+
+
+ />
+
+    <Button android:layout_width="fill_parent" android:layout_height="0.0dip" android:id="@id/settings" android:layout_weight="1.0" android:background="@drawable/button_selector_pro" android:text="@string/settings" style="@style/main_menu_button_pro"
+
+
+
+
+
+
+ />
+
+    <Button android:layout_width="fill_parent" android:layout_height="0.0dip" android:id="@id/help_n_tips" android:layout_weight="1.0" android:background="@drawable/button_selector_pro" android:text="@string/help_n_tips" style="@style/main_menu_button_pro"
+
+
+
+
+
+
+ />
+
+    <Button android:layout_width="fill_parent" android:layout_height="0.0dip" android:id="@id/feedback" android:layout_weight="1.0" android:background="@drawable/button_selector_pro" android:text="@string/feedback" style="@style/main_menu_button_pro"
+
+
+
+
+
+
+ />
+
+</LinearLayout>

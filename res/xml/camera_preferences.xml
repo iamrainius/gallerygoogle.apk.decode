@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<PreferenceGroup camera:title="@string/pref_camera_settings_category"
+  xmlns:camera="http://schemas.android.com/apk/res/com.android.gallery3d"
+>
+    <IconListPreference camera:title="@string/pref_camera_flashmode_title" camera:key="pref_camera_flashmode_key" camera:defaultValue="@string/pref_camera_flashmode_default" camera:icons="@array/camera_flashmode_icons" camera:largeIcons="@array/camera_flashmode_largeicons" camera:entries="@array/pref_camera_flashmode_entries" camera:entryValues="@array/pref_camera_flashmode_entryvalues"
+
+
+
+
+
+
+ />
+    <IconListPreference camera:title="@string/pref_exposure_title" camera:key="pref_camera_exposure_key" camera:defaultValue="@string/pref_exposure_default" camera:singleIcon="@drawable/ic_exposure_holo_light"
+
+
+
+ />
+    <IconListPreference camera:title="@string/pref_camera_scenemode_title" camera:key="pref_camera_scenemode_key" camera:defaultValue="@string/pref_camera_scenemode_default" camera:entries="@array/pref_camera_scenemode_entries" camera:entryValues="@array/pref_camera_scenemode_entryvalues" camera:singleIcon="@drawable/ic_scn_holo_light"
+
+
+
+
+
+ />
+    <IconListPreference camera:title="@string/pref_camera_whitebalance_title" camera:key="pref_camera_whitebalance_key" camera:defaultValue="@string/pref_camera_whitebalance_default" camera:icons="@array/whitebalance_icons" camera:largeIcons="@array/whitebalance_largeicons" camera:entries="@array/pref_camera_whitebalance_entries" camera:entryValues="@array/pref_camera_whitebalance_entryvalues"
+
+
+
+
+
+
+ />
+    <RecordLocationPreference camera:title="@string/pref_camera_recordlocation_title" camera:key="pref_camera_recordlocation_key" camera:defaultValue="@string/pref_camera_recordlocation_default" camera:icons="@array/camera_recordlocation_icons" camera:largeIcons="@array/camera_recordlocation_largeicons" camera:entries="@array/pref_camera_recordlocation_entries" camera:entryValues="@array/pref_camera_recordlocation_entryvalues"
+
+
+
+
+
+
+ />
+    <ListPreference camera:title="@string/pref_camera_picturesize_title" camera:key="pref_camera_picturesize_key" camera:entries="@array/pref_camera_picturesize_entries" camera:entryValues="@array/pref_camera_picturesize_entryvalues"
+
+
+
+ />
+    <ListPreference camera:title="@string/pref_camera_focusmode_title" camera:key="pref_camera_focusmode_key" camera:defaultValue="@array/pref_camera_focusmode_default_array" camera:entries="@array/pref_camera_focusmode_entries" camera:entryValues="@array/pref_camera_focusmode_entryvalues"
+
+
+
+
+ />
+    <IconListPreference camera:title="@string/pref_camera_id_title" camera:key="pref_camera_id_key" camera:defaultValue="@string/pref_camera_id_default" camera:icons="@array/camera_id_icons" camera:largeIcons="@array/camera_id_largeicons" camera:entries="@array/camera_id_entries"
+
+
+
+
+
+ />
+    <ListPreference camera:title="@string/pref_camera_scenemode_entry_hdr" camera:key="pref_camera_hdr_key" camera:defaultValue="@string/pref_camera_hdr_default" camera:entries="@array/pref_camera_hdr_entries" camera:entryValues="@array/pref_camera_hdr_entryvalues"
+
+
+
+
+ />
+</PreferenceGroup>
